@@ -5,7 +5,7 @@ After=graphical.target
 [Service]
 Type=oneshot
 ExecStart=/bin/sh -c 'gsettings set org.gnome.desktop.interface gtk-theme "Yaru-viridian-dark"'
-ExecStart=/bin/sh -c 'gsettings set org.gnome.desktop.wm.preferenes theme "Adwaita-dark"'
+ExecStart=/bin/sh -c 'gsettings set org.gnome.desktop.wm.preferences theme "Adwaita-dark"'
 
 [Install]
 WantedBy=default.target

@@ -33,3 +33,13 @@ systemctl --user enable dark-theme.timer
 systemctl --user enable light-theme.service
 systemctl --user enable light-theme.timer
 ```
+
+Test services:
+
+```bash
+# test light theme
+systemctl --user start light-theme.service
+
+# test dark theme
+systemctl --user start dark-theme.service
+```
