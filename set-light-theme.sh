@@ -1,0 +1,1 @@
+systemctl --user start light-theme.service
